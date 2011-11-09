@@ -1,0 +1,10 @@
+To run this application:
+1 - Checkout code from git
+2 - Install MongoDB
+3 - Create a MongoDB database called 'scalatest'
+4 - Insert some documents into the users collection. Use this format (dates in yyyy-MM-dd format):
+    { "username" : "dfreitas", "fullName" : "Daniel Freitas", "dateOfBirth" : "1979-03-03" }
+5 - Run project with Play (play run)
+6 - Access url at http://localhost:9000/{username}, where username is the username of a user stored in mongodb  
+
+The code will connect to the default MongoDB port.
