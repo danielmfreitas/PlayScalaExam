@@ -10,7 +10,7 @@ GET     /favicon.ico                            404
 
 
 # User search
-GET     /{username}                             Users.findByUsername
+GET     /{username}                             Application.findUserByUsername
 
 # Map static resources from the /app/public folder to the /public path
 GET     /public/                                staticDir:public
